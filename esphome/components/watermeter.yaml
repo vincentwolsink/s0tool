@@ -57,6 +57,7 @@ binary_sensor:
       inverted: true
       mode:
         input: true
+        pullup: true
     on_press:
       - then:
           lambda: id(total_water_pulses) += 1;  
